@@ -1,64 +1,64 @@
-import bwmap from './backgrounds/bw-map.jpeg';
-import nairobi from './backgrounds/nairobi.png';
-import whiteabstract from './backgrounds/white-abstract.png';
-import worldmap from './backgrounds/world-map.png';
+// Static assets served from /public — exported as URL strings.
+const bwmap = '/assets/backgrounds/bw-map.jpeg';
+const nairobi = '/assets/backgrounds/nairobi.png';
+const whiteabstract = '/assets/backgrounds/white-abstract.png';
+const worldmap = '/assets/backgrounds/world-map.png';
 
-import logo from './logo/logo.svg';
-import logotext from './logo/logo-name.png';
+const logo = '/assets/logo/logo.svg';
+const logotext = '/assets/logo/logo-name.png';
 
-import mimi from './personal/mimi.jpg';
+const mimi = '/assets/personal/mimi.jpg';
 
-import backend from './icons/backend.png';
-import ux from './icons/ux.png';
-import frontend from './icons/frontend.png';
-import prototyping from './icons/prototyping.png';
-import github from './icons/github.png';
-import close from './icons/close.png';
-import download from './icons/download.png';
-import downloadHover from './icons/downloadHover.png';
-import pineapple from './icons/pineapple.png';
-import pineappleHover from './icons/pineappleHover.png';
-import menu from './icons/menu.png';
-import resume from './icons/resume.png';
-import send from './icons/send.png';
-import sendHover from './icons/sendHover.png';
+const backend = '/assets/icons/backend.png';
+const ux = '/assets/icons/ux.png';
+const frontend = '/assets/icons/frontend.png';
+const prototyping = '/assets/icons/prototyping.png';
+const github = '/assets/icons/github.png';
+const close = '/assets/icons/close.png';
+const download = '/assets/icons/download.png';
+const downloadHover = '/assets/icons/downloadHover.png';
+const pineapple = '/assets/icons/pineapple.png';
+const pineappleHover = '/assets/icons/pineappleHover.png';
+const menu = '/assets/icons/menu.png';
+const resume = '/assets/icons/resume.png';
+const send = '/assets/icons/send.png';
+const sendHover = '/assets/icons/sendHover.png';
 
-import bootstrap from './tech/bootstrap.png';
-import css from './tech/css.png';
-import sass from './tech/sass.png';
-import docker from './tech/docker.png';
-import figma from './tech/figma.png';
-import git from './tech/git.png';
-import html from './tech/html.png';
-import java from './tech/java.png';
-import javascript from './tech/javascript.png';
-import javaspring from './tech/javaspring.png';
-import jira from './tech/jira.png';
-import nextjs from './tech/nextjs.png';
-import nodejs from './tech/nodejs.png';
-import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
-import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
-import vuejs from './tech/vuejs.png';
+const bootstrap = '/assets/tech/bootstrap.png';
+const css = '/assets/tech/css.png';
+const sass = '/assets/tech/sass.png';
+const docker = '/assets/tech/docker.png';
+const figma = '/assets/tech/figma.png';
+const git = '/assets/tech/git.png';
+const html = '/assets/tech/html.png';
+const java = '/assets/tech/java.png';
+const javascript = '/assets/tech/javascript.png';
+const javaspring = '/assets/tech/javaspring.png';
+const jira = '/assets/tech/jira.png';
+const nextjs = '/assets/tech/nextjs.png';
+const nodejs = '/assets/tech/nodejs.png';
+const reactjs = '/assets/tech/reactjs.png';
+const redux = '/assets/tech/redux.png';
+const tailwind = '/assets/tech/tailwind.png';
+const typescript = '/assets/tech/typescript.png';
+const vuejs = '/assets/tech/vuejs.png';
 
-import nathan from './company/nathan.svg';
-import ngamia from './company/ngamia.png';
-import cvstudiologo from './company/cvstudio.svg';
-import titanqio from './company/titanqio.svg';
-import digicode from './company/digicode.svg';
+const nathan = '/assets/company/nathan.svg';
+const ngamia = '/assets/company/ngamia.png';
+const cvstudiologo = '/assets/company/cvstudio.svg';
+const titanqio = '/assets/company/titanqio.svg';
+const digicode = '/assets/company/digicode.svg';
 
-import marquee from './projects/marquee.png';
-import psmart from './projects/p-smart.png';
-import cvstudio from './projects/cvstudio.png';
-import titantime from './projects/titantime.svg';
-import titancharge from './projects/titancharge.svg';
-import thinktank from './projects/thinktank.svg';
-import zetumart from './projects/zetumart.svg';
-import kikoba from './projects/kikoba.svg';
-import neurodev from './projects/neurodev.svg';
-import nodetemplate from './projects/nodetemplate.svg';
-
+const marquee = '/assets/projects/marquee.png';
+const psmart = '/assets/projects/p-smart.png';
+const cvstudio = '/assets/projects/cvstudio.png';
+const titantime = '/assets/projects/titantime.svg';
+const titancharge = '/assets/projects/titancharge.svg';
+const thinktank = '/assets/projects/thinktank.svg';
+const zetumart = '/assets/projects/zetumart.svg';
+const kikoba = '/assets/projects/kikoba.svg';
+const neurodev = '/assets/projects/neurodev.svg';
+const nodetemplate = '/assets/projects/nodetemplate.svg';
 
 export {
   bwmap,
@@ -90,7 +90,8 @@ export {
   figma,
   git,
   html,
-  java, javascript,
+  java,
+  javascript,
   javaspring,
   jira,
   nextjs,
