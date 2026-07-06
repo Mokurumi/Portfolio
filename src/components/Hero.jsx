@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { navLinks } from '../constants';
 import { mimi, bwmap, worldmap } from '../assets';
 
 const Hero = () => {
