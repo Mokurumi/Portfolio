@@ -37,6 +37,13 @@
   color-scheme: dark;
 }
 
+/* animations translate elements past the viewport edge; never show a horizontal scrollbar */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .nav-links::after {
   content: '';
   display: block;

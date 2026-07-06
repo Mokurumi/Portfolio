@@ -37,7 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        I am a seasoned software engineer with a passion for developing innovative programs that expedite the efficiency and effectiveness of organizational success. Well-versed in technology and writing code to create systems that are reliable and user-friendly. I am constantly looking to learn and grow, and I am eager to bring my expertise and passion to new challenges and opportunities in the software development industry.
+        I am a software engineer building scalable web applications and distributed systems across frontend and backend layers. I have led product delivery for platforms spanning e-commerce, energy, logistics, recruitment, and fintech — designing multi-service architectures and translating business requirements into reliable production systems. I care deeply about performance, usability, and system reliability, and I am always eager to bring that expertise to new challenges and opportunities.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

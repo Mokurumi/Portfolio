@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12200f" />
+      <stop offset="1" stop-color="#33501f" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)" />
+  <g fill="none" stroke="#9ccc65" opacity="0.45" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M300 320 L200 440 L300 560" />
+    <path d="M500 320 L600 440 L500 560" />
+    <path d="M440 300 L360 580" />
+  </g>
+  <g fill="none" stroke="#ffffff" opacity="0.12" stroke-width="6">
+    <rect x="150" y="240" width="500" height="400" rx="24" />
+    <path d="M150 300 L650 300" />
+    <circle cx="190" cy="270" r="8" />
+    <circle cx="220" cy="270" r="8" />
+    <circle cx="250" cy="270" r="8" />
+  </g>
+  <g stroke="#ffffff" opacity="0.08" stroke-width="40">
+    <path d="M-50 870 L850 690" />
+  </g>
+  <text x="400" y="920" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#ffffff" opacity="0.5" letter-spacing="8">NODE.JS API</text>
+</svg>

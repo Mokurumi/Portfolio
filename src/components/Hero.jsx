@@ -7,14 +7,14 @@ import { mimi, bwmap, worldmap } from '../assets';
 const Hero = () => {
   return (
     <>
-      <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
+      <div className="absolute top-0 left-0 z-0 h-[100vh] w-full">
         <img
           src={bwmap}
           alt="world map"
           className="w-full h-full sm:block hidden object-cover"
         />
       </div>
-      <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
+      <div className="absolute top-0 left-0 z-0 h-[100vh] w-full">
         <img
           src={worldmap}
           alt="world map"
@@ -39,11 +39,11 @@ const Hero = () => {
               Alpha Mokurumi Morara
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              A well experienced software engineer ready to take on challenges as well as learn new cool stuff.
+              A software engineer building scalable web applications and distributed systems across frontend, backend, and mobile.
             </p>
           </div>
           <div
-            className="w-screen flex flex-col items-start justify-center sm:-ml-[5rem] xxs:mt-4"></div>
+            className="w-full flex flex-col items-start justify-center sm:-ml-[5rem] xxs:mt-4"></div>
 
           <div></div>
         </div>
@@ -74,9 +74,9 @@ const Hero = () => {
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
           <img
-            className="absolute bottom-[8vh] ml-[45vw] lg:ml-[70vw] md:ml-[70vw] xmd:ml-[70vw] 2xl:ml-[75vw] h-[20vh] md:h-[30vh] xl:h-[40vh] rounded-[50%]"
+            className="absolute bottom-[8vh] right-[4vw] h-[20vh] md:h-[30vh] xl:h-[40vh] rounded-[50%]"
             src={mimi}
-            alt="shaquille"
+            alt="Alpha Mokurumi"
           />
         </div>
       </section >

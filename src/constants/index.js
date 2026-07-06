@@ -107,18 +107,25 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'FRONTEND ASSOCIATE',
+    title: 'APPLICATIONS DEVELOPER',
+    company_name: 'TitanQIO',
+    icon: assets.titanqio,
+    iconBg: '#ffffff',
+    date: 'June 2025 - Present',
+  },
+  {
+    title: 'SENIOR SOFTWARE ENGINEER',
+    company_name: 'Digicode Technologies',
+    icon: assets.digicode,
+    iconBg: '#ffffff',
+    date: 'Feb 2025 - May 2025',
+  },
+  {
+    title: 'SENIOR FRONTEND DEVELOPER',
     company_name: 'Nathan Digital',
     icon: assets.nathan,
     iconBg: '#555555',
-    date: 'Jan 2024 - Present',
-  },
-  {
-    title: 'IT CONSULTANT',
-    company_name: 'CVstudio Africa',
-    icon: assets.cvstudiologo,
-    iconBg: '#ffffff',
-    date: 'Aug 2023 - Dec 2023',
+    date: 'Jan 2024 - Jan 2025',
   },
   {
     title: 'LEAD SOFTWARE ENGINEER',
@@ -132,33 +139,50 @@ const experiences = [
     company_name: 'Ngamia Haulers Platform Ltd',
     icon: assets.ngamia,
     iconBg: '#ffffff',
-    date: 'June 2021 - April 2022',
+    date: 'May 2021 - April 2022',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'Marquee Africa',
-    description: 'An online advertising platform for African businesses.',
-    image: assets.marquee,
-    // repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://marquee.africa/',
+    name: 'TitanTime',
+    description:
+      'A time-tracking and timesheet product suite: admin and client web portals, a Node.js backend, and a Flutter mobile app shipped to Android and iOS.',
+    image: assets.titantime,
+    demo: 'https://titan-time.vercel.app/',
   },
   {
     id: 'project-2',
-    name: 'CVstudio Africa',
-    description: 'A job site to connect employers with job seekers.',
-    image: assets.cvstudio,
-    demo: 'https://www.cvstudio.africa/',
+    name: 'ZetuMart',
+    description:
+      'An e-commerce marketplace with a customer storefront and admin platform, built with Nuxt 3 and Tailwind CSS and deployed with Docker.',
+    image: assets.zetumart,
+    demo: 'https://zetumart.com/',
   },
   {
     id: 'project-3',
-    name: 'P-Smart',
+    name: 'Kikoba Hub',
     description:
-      'An administartive dashboard for oil marketers to manage their business.',
-    image: assets.psmart,
-    demo: 'https://p-smart.africa/',
+      'A digital accounting platform for savings groups: member contributions, loans, and reporting, with M-Pesa payment integration.',
+    image: assets.kikoba,
+    demo: 'https://kikoba-hub.netlify.app/',
+  },
+  {
+    id: 'project-4',
+    name: 'Node API Template',
+    description:
+      'An open-source Node.js/TypeScript API template: Express, MongoDB, JWT auth, request validation, Swagger docs, and production-grade security and logging out of the box.',
+    image: assets.nodetemplate,
+    repo: 'https://github.com/Mokurumi/abcd-be',
+  },
+  {
+    id: 'project-5',
+    name: 'NeuroDev',
+    description:
+      'The corporate website for NeuroDev Technologies, a software consultancy, built with Next.js and Tailwind CSS.',
+    image: assets.neurodev,
+    demo: 'https://www.neurodevtechnologies.com/',
   },
 ];
 

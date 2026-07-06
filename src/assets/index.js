@@ -3,7 +3,7 @@ import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
-import logo from './logo/logo.png';
+import logo from './logo/logo.svg';
 import logotext from './logo/logo-name.png';
 
 import mimi from './personal/mimi.jpg';
@@ -45,10 +45,19 @@ import vuejs from './tech/vuejs.png';
 import nathan from './company/nathan.svg';
 import ngamia from './company/ngamia.png';
 import cvstudiologo from './company/cvstudio.svg';
+import titanqio from './company/titanqio.svg';
+import digicode from './company/digicode.svg';
 
 import marquee from './projects/marquee.png';
 import psmart from './projects/p-smart.png';
 import cvstudio from './projects/cvstudio.png';
+import titantime from './projects/titantime.svg';
+import titancharge from './projects/titancharge.svg';
+import thinktank from './projects/thinktank.svg';
+import zetumart from './projects/zetumart.svg';
+import kikoba from './projects/kikoba.svg';
+import neurodev from './projects/neurodev.svg';
+import nodetemplate from './projects/nodetemplate.svg';
 
 
 export {
@@ -94,7 +103,16 @@ export {
   marquee,
   psmart,
   cvstudio,
+  titantime,
+  titancharge,
+  thinktank,
+  zetumart,
+  kikoba,
+  neurodev,
+  nodetemplate,
   nathan,
   ngamia,
   cvstudiologo,
+  titanqio,
+  digicode,
 };
